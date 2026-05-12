@@ -187,7 +187,6 @@
 									bind:value={editNombre}
 									onblur={guardarEdicion}
 									onkeydown={(e) => e.key === 'Enter' && guardarEdicion()}
-									autofocus
 								/>
 							{:else}
 								<span class="w-32 truncate font-bold text-slate-700">{c.nombre}</span>
@@ -251,7 +250,7 @@
 							</p>
 							<p class="text-xs text-slate-500 italic">{OP_DESC[operacion]}</p>
 							<pre
-								class="rounded-lg bg-base-100 p-3 text-sm break-words whitespace-pre-wrap text-slate-800">{resultadoTexto}
+								class="rounded-lg bg-base-100 p-3 text-sm wrap-break-word whitespace-pre-wrap text-slate-800">{resultadoTexto}
                                 </pre>
 						</div>
 					{/if}
