@@ -57,7 +57,7 @@
 <main class="flex min-h-screen items-center justify-center bg-base-200 p-4">
     <div class="card w-full max-w-4xl bg-base-100 shadow-xl">
         <div class="card-body gap-6">
-            <h1 class="card-title text-2xl">Sucesiones</h1>
+            <h1 class="card-title text-3xl font-bold">Sucesiones</h1>
 
             <div class="flex flex-row gap-4">
                 <fieldset class="fieldset flex-1">
